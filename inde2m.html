@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DevFocus</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 80px;
+background:#020617;
+}
+
+nav h2{
+color:#38bdf8;
+}
+
+nav button{
+background:#38bdf8;
+border:none;
+padding:10px 20px;
+border-radius:20px;
+cursor:pointer;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:80px;
+padding:120px 80px;
+flex-wrap:wrap;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+font-size:18px;
+opacity:0.8;
+}
+
+.hero button{
+margin-top:30px;
+padding:12px 35px;
+background:#38bdf8;
+border:none;
+border-radius:25px;
+font-size:18px;
+cursor:pointer;
+}
+
+.hero img{
+width:350px;
+}
+
+/* SKILL ROADMAP */
+
+.roadmap{
+padding:80px;
+text-align:center;
+}
+
+.roadmap h2{
+margin-bottom:50px;
+font-size:40px;
+}
+
+.steps{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.step{
+background:#1e293b;
+padding:40px;
+width:220px;
+border-radius:15px;
+transition:0.3s;
+}
+
+.step:hover{
+transform:translateY(-10px);
+background:#334155;
+}
+
+.step img{
+width:60px;
+margin-bottom:15px;
+}
+
+.step h3{
+margin-bottom:10px;
+}
+
+/* PROGRESS */
+
+.progress{
+padding:80px;
+background:#020617;
+text-align:center;
+}
+
+.bar{
+width:70%;
+height:20px;
+background:#1e293b;
+margin:20px auto;
+border-radius:20px;
+overflow:hidden;
+}
+
+.fill{
+height:100%;
+background:#38bdf8;
+width:70%;
+}
+
+/* CTA */
+
+.cta{
+padding:100px;
+text-align:center;
+}
+
+.cta h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.cta button{
+padding:15px 40px;
+background:#38bdf8;
+border:none;
+border-radius:25px;
+font-size:18px;
+cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+}
+</style>
+</head>
+<body>
+<!-- NAVBAR -->
+<nav>
+<h2>DevFocus</h2>
+<button>Join Now</button>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-text">
+<h1><span>Focus</span>. Learn. <span>Build.</span></h1>
+
+<p>
+DevFocus helps students become developers by guiding them
+through a clear coding roadmap and productivity tools.
+</p>
+
+<button>Start Journey</button>
+</div>
+
+<img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+
+</section>
+
+<!-- ROADMAP -->
+
+<section class="roadmap">
+
+<h2>Your Coding Roadmap</h2>
+
+<div class="steps">
+
+<div class="step">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+<h3>Step 1</h3>
+<p>Learn HTML Basics</p>
+</div>
+
+<div class="step">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732190.png">
+<h3>Step 2</h3>
+<p>Master CSS Layouts</p>
+</div>
+
+<div class="step">
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
+<h3>Step 3</h3>
+<p>JavaScript Projects</p>
+</div>
+
+<div class="step">
+<img src="https://cdn-icons-png.flaticon.com/512/2721/2721297.png">
+<h3>Step 4</h3>
+<p>Build Real Websites</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PROGRESS -->
+
+<section class="progress">
+
+<h2>Your Learning Progress</h2>
+
+<div class="bar">
+<div class="fill"></div>
+</div>
+
+<p>70% Developer Journey Completed</p>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+
+<h2>Start Building Your Future</h2>
+
+<p>Join thousands of students learning web development couse.</p>
+
+<button>Get Started</button>
+
+</section>
+
+<footer>
+<p>© 2026 DevFocus | Created by Sairaj 🚀</p>
+</footer>
+
+</body>
+</html>
