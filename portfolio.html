@@ -1,0 +1,436 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sairaj Behera Portfolio</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0b0f1a;
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 80px;
+background:#070b14;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav h2{
+color:#8b5cf6;
+}
+
+nav ul{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#8b5cf6;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:80px;
+padding:120px 60px;
+flex-wrap:wrap;
+}
+
+.hero-text h1{
+font-size:55px;
+}
+
+.hero-text span{
+color:#8b5cf6;
+}
+
+.hero-text p{
+margin-top:20px;
+max-width:450px;
+opacity:0.8;
+}
+
+.hero img{
+width:320px;
+border-radius:20px;
+box-shadow:0 0 30px rgba(139,92,246,0.7);
+animation:float 4s infinite ease-in-out;
+}
+
+/* FLOAT ANIMATION */
+
+@keyframes float{
+
+0%{transform:translateY(0);}
+50%{transform:translateY(-20px);}
+100%{transform:translateY(0);}
+
+}
+
+/* STATS */
+
+.stats{
+display:flex;
+justify-content:center;
+gap:100px;
+padding:80px;
+background:#070b14;
+flex-wrap:wrap;
+}
+
+.stat{
+text-align:center;
+}
+
+.stat h2{
+font-size:40px;
+color:#8b5cf6;
+}
+
+/* YOUTUBE */
+
+.creator{
+padding:80px;
+text-align:center;
+}
+
+.creator h1{
+color:#8b5cf6;
+margin-bottom:20px;
+}
+
+/* BUTTON */
+
+button{
+padding:12px 35px;
+border:none;
+background:#8b5cf6;
+color:white;
+border-radius:25px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+/* ACHIEVEMENT */
+
+.achievement{
+padding:80px;
+background:#070b14;
+text-align:center;
+}
+
+.ach-card{
+background:#111827;
+padding:40px;
+max-width:550px;
+margin:auto;
+border-radius:15px;
+transition:0.4s;
+}
+
+.ach-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px #8b5cf6;
+}
+
+.hackathon-img{
+width:100%;
+border-radius:15px;
+margin-top:20px;
+transition:0.4s;
+}
+
+.hackathon-img:hover{
+transform:scale(1.05);
+}
+
+/* SKILLS */
+
+.services{
+padding:80px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#111827;
+padding:40px;
+width:250px;
+border-radius:15px;
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:#8b5cf6;
+}
+
+/* PROJECTS */
+
+.projects{
+padding:80px;
+background:#070b14;
+text-align:center;
+}
+
+.project-grid{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.project{
+width:300px;
+background:#111827;
+border-radius:10px;
+overflow:hidden;
+transition:0.4s;
+}
+
+.project img{
+width:100%;
+}
+
+.project:hover{
+transform:scale(1.05);
+}
+
+/* CONTACT */
+
+.contact{
+padding:80px;
+text-align:center;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:30px;
+background:#070b14;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<h2>SairajDev</h2>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#youtube">YouTube</a></li>
+<li><a href="#achievement">Achievement</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+<div class="hero-text">
+
+<h1>Sairaj <span>Behera</span></h1>
+
+<p>
+Student at SUIIT Burla | Web Developer | Content Creator.
+I enjoy building websites and sharing my coding journey online.
+</p>
+
+</div>
+
+<img src="sairaj.jpg.jpeg">
+
+</section>
+
+<!-- STATS -->
+
+<section class="stats">
+
+<div class="stat">
+<h2>10+</h2>
+<p>Projects</p>
+</div>
+
+<div class="stat">
+<h2>6</h2>
+<p>Months Content Creator</p>
+</div>
+
+<div class="stat">
+<h2>₹5000</h2>
+<p>Hackathon Prize</p>
+</div>
+
+</section>
+
+<!-- YOUTUBE -->
+
+<section id="youtube" class="creator">
+
+<h1>My YouTube Channel</h1>
+
+<p>I share coding journey and student life videos.</p>
+
+<br>
+
+<a href="https://youtube.com/@sai.sanket_vlog" target="_blank">
+
+<button>Visit My Channel</button>
+
+</a>
+
+</section>
+
+<!-- ACHIEVEMENT -->
+
+<section id="achievement" class="achievement">
+
+<h1>Hackathon Achievement</h1>
+
+<div class="ach-card">
+
+<h2>🏆 Hackverse Hackathon Winner</h2>
+
+<p>
+Won the Hackathon at SUIIT Burla with a prize pool of ₹5000.
+This project was built with teamwork and innovative ideas.
+</p>
+
+<img src="hackathon.jpg.jpeg" class="hackathon-img">
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section class="services">
+
+<h1>My Skills</h1>
+
+<div class="cards">
+
+<div class="card">
+<h3>HTML & CSS</h3>
+<p>Building responsive modern websites.</p>
+</div>
+
+<div class="card">
+<h3>Java Programming</h3>
+<p>Learning DSA and building logic.</p>
+</div>
+
+<div class="card">
+<h3>Content Creator</h3>
+<p>Creating coding and vlog content.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects" class="projects">
+
+<h1>My Projects</h1>
+
+<div class="project-grid">
+
+<div class="project">
+<img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6">
+<p style="padding:15px;">Landing Page</p>
+</div>
+
+<div class="project">
+<img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c">
+<p style="padding:15px;">Portfolio Website</p>
+</div>
+
+<div class="project">
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+<p style="padding:15px;">JavaScript App</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h1>Contact Me</h1>
+
+<p>Let's build something amazing together.</p>
+
+<br>
+
+<a href="mailto:yourmail@gmail.com">
+
+<button>Email Me</button>
+
+</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 Portfolio | Created by Sairaj 🚀</p>
+
+</footer>
+
+</body>
+</html>
+```
